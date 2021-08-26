@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-
+import { BACKEND_URL } from '../config';
 
 export default class CreateUsers extends Component {
   constructor(props) {  
