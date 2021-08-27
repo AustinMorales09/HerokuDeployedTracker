@@ -32,7 +32,7 @@ export default class EditExercise extends Component {
       .catch(function (error) {
         console.log(error);
       })
-    axios.get(BACKEND_URL + '/users/')
+    axios.get(BACKEND_URL +'/exercises/users/')
       .then(response => {
         if (response.data.length > 0) {
           this.setState({
