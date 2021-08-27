@@ -71,7 +71,7 @@ export default class CreateExercise extends Component {
 
 
   onSubmit(e) {
-    // e.preventDefault();
+    e.preventDefault();
   
     const exercise = {
       username: this.state.username,
@@ -82,7 +82,6 @@ export default class CreateExercise extends Component {
   
     console.log(exercise);
     
-    // window.location = '/';
   }
 
 
