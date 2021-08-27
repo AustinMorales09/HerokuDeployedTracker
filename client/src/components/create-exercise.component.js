@@ -81,7 +81,7 @@ export default class CreateExercise extends Component {
     };
   
      console.log(exercise);
-    axios.post(BACKEND_URL + 'exercises/add', exercise)
+    axios.post(BACKEND_URL + '/exercises/add', exercise)
       .then(res => console.log(res.data));
     
   }
